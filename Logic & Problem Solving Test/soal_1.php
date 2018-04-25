@@ -25,6 +25,6 @@ function ladder($n){
 
 $n = 4;
 
-triangle($n);
+ladder($n);
 
 ?>
