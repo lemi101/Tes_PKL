@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Login</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    form {
+      border: 1px solid black;
+      margin-right: 520px;
+      margin-left: 480px;
+    }
+        
+    input[type=submit] {
+      background-color: white;
+      border: 1px solid grey;
+      color: black;
+      padding: 4px 8px;
+      text-decoration: none;
+      margin: 2px 2px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div style="margin-left: 330px">
+    <h1>FORM LOGIN SISTEM DATABASE BUKU</h1>
+  </div>
+  <pre>
+    <form action="login.php" method="POST">
+      <b>Username</b>
+      <input type="text" placeholder="Masukkan Username" name="uname" required>
+
+      <b>Password</b>
+      <input type="password" placeholder="Masukkan Password" name="passwd" required>
+            
+      <button type="submit">Login</button>
+    </form>
+  </pre>
+</body>
+</html>
