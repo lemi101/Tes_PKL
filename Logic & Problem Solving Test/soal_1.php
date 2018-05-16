@@ -14,7 +14,7 @@ function spaces($n){
 }
 
 function ladder($n){
-    echo('n = '.$n."\r\n");
+    echo('n = '.$n."\r\n"."\r\n");
 
     for ($i = 0; $i < $n; $i++) { 
         spaces($n - ($i + 1));
@@ -25,6 +25,9 @@ function ladder($n){
 
 $n = 4;
 
+echo('<pre>');
+
 ladder($n);
 
+echo('</pre>');
 ?>
