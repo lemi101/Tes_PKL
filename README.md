@@ -15,3 +15,4 @@ Untuk halaman awal dimulai dari `login.html`
 - Membenahi fungsi update
 - Menyempurnakan fungsi create dan update (dropdown)
 - Menambahkan notifikasi untuk delete
+- Memperbaiki `soal_1.php` agar bisa ditampilkan pada Web Browser
